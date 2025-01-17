@@ -1,0 +1,21 @@
+{
+    "welcome_message": "Welcome to our chatbot! How can I assist you?",
+    "questions": [
+      {
+        "id": 1,
+        "short_text": "What are your hours?",
+        "response": "We are open from 9 AM to 5 PM, Monday to Friday."
+      },
+      {
+        "id": 2,
+        "short_text": "Where are you located?",
+        "response": "We are located at 123 Main Street, Springfield."
+      },
+      {
+        "id": 3,
+        "short_text": "How can I contact support?",
+        "response": "You can contact support via email at support@example.com or call us at (123) 456-7890."
+      }
+    ]
+  }
+  
