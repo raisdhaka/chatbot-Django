@@ -1,21 +1,60 @@
 {
-    "welcome_message": "Welcome to our chatbot! How can I assist you?",
-    "questions": [
+  "welcome_message": "Welcome to our online store! How can I assist you today?",
+  "questions": [
       {
-        "id": 1,
-        "short_text": "What are your hours?",
-        "response": "We are open from 9 AM to 5 PM, Monday to Friday."
+          "id": 1,
+          "short_text": "What payment methods do you accept?",
+          "response": "We accept various payment methods including: Credit/Debit cards (Visa, MasterCard, American Express), PayPal, Apple Pay, and Google Pay. All transactions are secure and encrypted."
       },
       {
-        "id": 2,
-        "short_text": "Where are you located?",
-        "response": "We are located at 123 Main Street, Springfield."
+          "id": 2,
+          "short_text": "What is your return policy?",
+          "response": "We offer a 30-day return policy for most items. Products must be unused and in their original packaging. Once we receive your return, we'll process your refund within 3-5 business days."
       },
       {
-        "id": 3,
-        "short_text": "How can I contact support?",
-        "response": "You can contact support via email at support@example.com or call us at (123) 456-7890."
+          "id": 3,
+          "short_text": "How can I track my order?",
+          "response": "Once your order ships, you'll receive a tracking number via email. You can use this number to track your package on our website under 'Order Tracking' or directly through the carrier's website."
+      },
+      {
+          "id": 4,
+          "short_text": "Do you ship internationally?",
+          "response": "Yes, we ship to most countries worldwide! International shipping typically takes 7-14 business days. Shipping costs and delivery times vary by location. You can see specific shipping rates during checkout."
+      },
+      {
+          "id": 5,
+          "short_text": "How do I find my size?",
+          "response": "You can find detailed size guides on each product page. We provide measurements in both inches and centimeters. If you're between sizes, we recommend ordering the larger size. For specific sizing questions, please contact our customer service."
+      },
+      {
+          "id": 6,
+          "short_text": "Are there any ongoing sales?",
+          "response": "Check our 'Sales & Deals' section for current promotions. We regularly offer seasonal sales and special discounts. Sign up for our newsletter to stay updated on upcoming sales and exclusive offers!"
+      },
+      {
+          "id": 7,
+          "short_text": "How do I contact customer service?",
+          "response": "Our customer service team is available 24/7. You can reach us via email at support@example.com, phone at 1-800-123-4567, or use the live chat feature on our website. We typically respond within 24 hours."
+      },
+      {
+          "id": 8,
+          "short_text": "Do you have a loyalty program?",
+          "response": "Yes! Our VIP Rewards Program lets you earn points on every purchase. Earn 1 point for every $1 spent, and redeem points for discounts. Members also get early access to sales and exclusive offers."
+      },
+      {
+          "id": 9,
+          "short_text": "What is your shipping policy?",
+          "response": "We offer free standard shipping on orders over $50 within the US. Standard shipping (3-5 business days) costs $5.99, and express shipping (1-2 business days) is available for $12.99. Orders are processed within 24 hours."
+      },
+      {
+          "id": 10,
+          "short_text": "How do I apply a coupon code?",
+          "response": "You can enter your coupon code during checkout in the 'Promo Code' box. Make sure to click 'Apply' before proceeding with payment. Only one coupon code can be used per order unless otherwise specified."
+      },
+      {
+          "id": 11,
+          "short_text": "What is your name?",
+          "response": "My name is Ali Jan"
       }
-    ]
-  }
-  
+  ]
+}
