@@ -17,7 +17,7 @@ chatbot = Chat(pairs, reflections)
 
 def get_response(user_input):
     data = get_chatbot_data('responses.json')
-    short_text = next((q for q in data["questions"] if q["short_text"] == user_input), None)
+    short_text = next((q for q in data["questions"] if q["short_text"].lower() == user_input.lower()), None)
     if short_text:
         return short_text["response"]
     else:
